@@ -18,7 +18,7 @@ context('User can input a value to get FizzBuzz results', () => {
     await browser.fillIn("input[id='value']", { with: "3" })
     await browser.clickOnButton("input[value='Check']")
     let content = await browser.getContent("[id='display_answer']")
-    expect(content).to.eql('Fizz');
+    expect(content).to.eql("Fizz - ... yup, that's it");
   })
   
 });

@@ -78,3 +78,7 @@ describe('User can input a value and get FizzBuzz results', () => {
 7. saves new instance of FizzBuzz function to fizzBuzz variable
 8. calls .check function on new fizzBuzz instance, passes in value of text saved to let value, saves output to result variable
 9. innerHTML called to set result in display_answer div
+
+## Question 9
+### Explain what a CDN (Content Delivery Network) is?
+- A online network of data centers that aim to provide users with readily available/useable data like css stlying packages, without the user having to store the data localy
